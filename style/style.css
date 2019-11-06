@@ -1,7 +1,12 @@
+* {
+    outline: none;
+}
+
 html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
@@ -33,10 +38,41 @@ body {
     border-radius: 20px;
     box-shadow: 3px 3px 1px 1px rgba(0,0,0, .3);
     padding: 20px 30px;
+    text-align: center;
 }
 
-.login__container {
-    justify-content: center;
+.heading-1 {
+    color: #2A3DA7;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #F5F7FB;
+    border: 0;
+    border-radius: 50px;
+    color: #949BC3;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    min-width: calc(100% - 260px);
+}
+
+input[type='text']::placeholder,
+input[type='password']::placeholder {
+    color: #949BC3;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.password-set {
+    padding: 10px;
+}
+
+.password-set .link {
+    margin-left: 50px;
 }
 
 
