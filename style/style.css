@@ -42,9 +42,31 @@ body {
     text-align: center;
 }
 
+.login__form {
+    justify-items: center;
+    align-self: flex-end;
+}
+
+.login__register{
+    justify-items: center;
+    align-self: flex-end;
+}
+
 
 .heading-1 {
     color: #2A3DA7;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 14px;
+    left: 120px;
+    color: #949BC3;
 }
 
 input[type="text"], input[type="password"] {
@@ -55,7 +77,7 @@ input[type="text"], input[type="password"] {
     font-weight: 600;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
+    padding-left: 50px;
     margin-bottom: 20px;
     min-width: calc(100% - 260px);
 }
@@ -89,6 +111,11 @@ input[type='password']::placeholder {
     margin-left: 50px;
 }
 
+input[type="radio"]:checked {
+    color: #01CDCF;
+
+}
+
 .login-btn {
     background-color: #01CDCF;
     border: 0;
@@ -104,14 +131,11 @@ input[type='password']::placeholder {
     min-width: 170px;
 }
 
-.login__form {
-    justify-items: center;
-    align-self: flex-end;
-}
 
-.login__register{
-    justify-items: center;
-    align-self: flex-end;
+
+.login__register p {
+    color: rgb(191, 191, 191);
+    font-weight: 600;
 }
 
 
@@ -120,5 +144,15 @@ input[type='password']::placeholder {
 }
 
 
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 100%;
+        padding: 0;
+    }
 
+    .login {
+        justify-self: stretch;
+        margin-bottom: 10px;
+    }
+}
 
