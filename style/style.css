@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(41, 61, 166, .9);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: calc(100vh - 20px);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.illustration {
+    align-self: center;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.illustration .illustration__img {
+   width: 80%;
+   justify-content: center;
+}
+
+.login {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px 1px rgba(0,0,0, .3);
+    padding: 20px 30px;
+}
+
+.login__container {
+    justify-content: center;
+}
+
+
+
+
+
