@@ -10,7 +10,11 @@ html {
 }
 
 body {
-    background-color: rgba(41, 61, 166, .9);
+    background-image: 
+    linear-gradient(rgba(41, 61, 166, .9), rgba(41, 61, 166, .9)),
+    url('/img/bg.jpg');
+    background-size: cover ;
+    background-blend-mode: saturation;
     font-family: 'Raleway', sans-serif;
 }
 
