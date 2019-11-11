@@ -10,6 +10,8 @@ html {
 }
 
 body {
+    background: linear-gradient(rgba(41, 61, 166, .9), rgba(41, 61, 166, .9));
+    background-image : url('/img/bg.jpg');
     background-image: 
     linear-gradient(rgba(41, 61, 166, .9), rgba(41, 61, 166, .9)),
     url('/img/bg.jpg');
